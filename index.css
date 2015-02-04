@@ -1,6 +1,10 @@
 body {
-  background: url(../assets/images/background.png) no-repeat;
-  background-size: 100%;
+  background: url(../assets/images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #234A61;
   color: #fff;
   text-align: center;
 }
