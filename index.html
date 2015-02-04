@@ -24,49 +24,57 @@
 
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href='http//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
 
 </head>
 <body>
 
   <div class="container">
 
-    <h1>Single<span class="title-color">Access</span>&#8482;</h1>
+    <h1 id="title">Single<span id="title-color">Access</span><span id="title-tm">&#8482;</span></h1>
 
-    <div class="jumbotron">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="jumbotron">
 
-      <div>
-        <p>Online SingleAccess to most of your regular statements in less than a minute, simply and securely, now wouldn't that be great.
-        <br><br>
-        This is the service we are working hard to make available in Hong Kong.
-        <br><br>
-        If you would like to be kept informed of our progress and launch date please leave us your name and email address below.</p>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-
-          <div id="mc_embed_signup">
-            <form action="//singleaccess.us9.list-manage.com/subscribe/post?u=1ef31c93a39065796f214e106&amp;id=1ebe54ddd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll">
-                <div class="mc-field-group form-group">
-                  <input type="text" value="" name="NAME" class="form-control" id="mce-NAME" placeholder="Name">
-                </div>
-                <div class="mc-field-group form-group">
-                  <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;">
-                  <input type="text" name="b_1ef31c93a39065796f214e106_1ebe54ddd4" tabindex="-1" value="">
-                </div>
-                <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" onClick="ga('send', 'event', { eventCategory: 'Newsletter', eventAction: 'Sign Up', eventLabel: 'Clicked'});" target="blank">
-              </div>
-            </form>
+          <div class="key-message">
+            <p>Online SingleAccess to most of your regular statements in less than a minute, simply and securely, now wouldn't that be great.</p>
+            <p>This is the service we are working hard to make available in Hong Kong.
+            </p>
+            <p class="bold-text">If you would like to be kept informed of our progress and launch date please leave us your name and email address below.</p>
           </div>
 
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+
+              <div id="mc_embed_signup">
+                <form action="//singleaccess.us9.list-manage.com/subscribe/post?u=1ef31c93a39065796f214e106&amp;id=1ebe54ddd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group form-group">
+                      <input type="text" value="" name="NAME" class="form-control" id="mce-NAME" placeholder="Name">
+                    </div>
+                    <div class="mc-field-group form-group">
+                      <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;">
+                      <input type="text" name="b_1ef31c93a39065796f214e106_1ebe54ddd4" tabindex="-1" value="">
+                    </div>
+                    <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" onClick="ga('send', 'event', { eventCategory: 'Newsletter', eventAction: 'Sign Up', eventLabel: 'Clicked'});" target="blank">
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+
+          <p id="side-note">
+            <i class="fa fa-lock"></i> (Don't worry, we won't spam you or sell your personal data, ever)
+          </p>
         </div>
       </div>
 
@@ -75,8 +83,9 @@
       </div>
     </div>
 
-    <div class="col-md-12 col-xs-12 social">
+    <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-xs-12 social bottom">
       <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.singleaccess.com/" onClick="ga('send', 'event', { eventCategory: 'Social Media', eventAction: 'Facebook Share', eventLabel: 'Clicked'});" target="blank">
+
         <img src="../assets/images/facebook.jpg" class="social-buttons">
       </a>
       <a href="https://plus.google.com/share?url=http://www.singleaccess.com/" onClick="ga('send', 'event', { eventCategory: 'Social Media', eventAction: 'Google Plus Share', eventLabel: 'Clicked'});" target="blank">
@@ -93,7 +102,7 @@
       </a>
     </div>
 
-    <div class="col-md-12 col-xs-12">
+    <div class="col-md-4 col-xs-12" id="copyright">
       © 2015, SingleAccess™ Limited
     </div>
 
