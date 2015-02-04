@@ -14,23 +14,17 @@ $(document).ready(function () {
       cache       : false,
       dataType    : 'jsonp',
       jsonp: "c",
-      // crossDomain: true,
       contentType: "application/json; charset=utf-8",
-      error       : function(err) { $('#notification_container').html('<span class="alert">FUCK YOU MAILCHIMP</span>'); },
+      error       : function(err) { $('#notification_container').html('<span class="alert">Something has gone wrong, please try again!</span>'); },
       success     : function(data) {
-        console.log(data);
         if (data.result === "success") {
-          $('#notification_container').html('<span class="success">'+"SUCCESSSSSS"+'</span>');
-
+          $('#notification_container').html('<p class="success-div">'+"Thank you for providing us with your details. We'll keep you informed!"+'</p>');
+          $('.bold-text').css("display", "none");
+          $('#mc_embed_signup').css("display", "none");
+          $('#side-note').css("display", "none");
+        } else {
+          $('#notification_container').html('<p class="fail-div">'+"Something has gone wrong, please try again!"+'</p>');
         }
-        // if (data.result != "success") {
-        //   var message = data.msg.substring(4);
-        //   $('#notification_container').html('<span class="alert">'+HELLPPPPPPPPPPPPPPPP+'</span>');
-        // } else {
-        //   var message = data.msg;
-
-        //   $('#notification_container').html('<span class="success">'+message+'</span>');
-        // }
       }
     });
   }

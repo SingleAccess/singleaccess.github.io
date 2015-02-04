@@ -100,3 +100,14 @@ body {
 
 }
 
+p.success-div {
+  font-size: 20px;
+  color: #70a302;
+  margin: 30px 0;
+}
+
+p.fail-div {
+  font-size: 20px;
+  color: red;
+  margin: 30px 0;
+}
