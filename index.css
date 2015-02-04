@@ -35,10 +35,11 @@ body {
   height: 48px;
   width: 48px;
   padding: 2px;
+  float: left;
 }
 
 .social {
-  float: left;
+  margin-bottom: 10px;
 }
 
 .copyright {
