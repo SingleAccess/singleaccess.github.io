@@ -1,0 +1,102 @@
+body {
+  background: url(../images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #234A61;
+  color: #fff;
+  text-align: center;
+}
+
+.jumbotron {
+  background: #234A61;
+  background: rgba(24, 52, 67, 0.7019607843137254);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.key-message {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.key-message p {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.key-message p.bold-text {
+  font-weight: bold;
+}
+
+.btn-default {
+  background: #70A302;
+  border: none;
+  color: #fff;
+  width: 100%;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+#title {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 40px;
+  font-size: 48px;
+}
+
+#title-color {
+  color: #70A302;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+#title-tm {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  vertical-align: super;
+  margin-left: 3px;
+}
+
+.social-buttons {
+  height: 48px;
+  width: 48px;
+  padding: 2px;
+  float: left;
+}
+
+
+.copyright {
+  text-align: center;
+}
+
+.mc-field-group > input {
+  height: 40px;
+  font-size: 18px;
+}
+
+#mc-embedded-subscribe {
+  height: 40px;
+  font-size: 18px;
+}
+
+#side-note {
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+#side-note > i {
+  font-size: 16px;
+}
+
+#copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+
+}
+
