@@ -18,12 +18,12 @@ $(document).ready(function () {
       error       : function(err) { $('#notification_container').html('<span class="alert">Something has gone wrong, please try again!</span>'); },
       success     : function(data) {
         if (data.result === "success") {
-          $('#notification_container').html('<p class="success-div">'+"Thank you for providing us with your details. We'll keep you informed!"+'</p>');
-          $('.bold-text').css("display", "none");
+          $('#notification_container').html("<p class='success-div bold-text'>"+"Thank you for providing us with your details. We'll keep you informed!"+"</p>");
+          $('.get-details').css("display", "none");
           $('#mc_embed_signup').css("display", "none");
           $('#side-note').css("display", "none");
         } else {
-          $('#notification_container').html('<p class="fail-div">'+"Something has gone wrong, please try again!"+'</p>');
+          $('#notification_container').html("<p class='fail-div bold-text'>"+"Oops, something has gone wrong, please check your contact details and try again!"+"</p>");
         }
       }
     });
